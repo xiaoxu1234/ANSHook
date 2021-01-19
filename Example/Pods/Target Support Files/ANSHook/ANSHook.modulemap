@@ -1,0 +1,6 @@
+framework module ANSHook {
+  umbrella header "ANSHook-umbrella.h"
+
+  export *
+  module * { export * }
+}

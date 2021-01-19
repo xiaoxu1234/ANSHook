@@ -1,0 +1,16 @@
+PODS:
+  - ANSHook (0.1.0)
+
+DEPENDENCIES:
+  - ANSHook (from `../`)
+
+EXTERNAL SOURCES:
+  ANSHook:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  ANSHook: 0ba3c02edfa56b3182bacf750eabb28f18cf5d9e
+
+PODFILE CHECKSUM: f162e1f55f343cfcfcac0da237a2a553434fb01f
+
+COCOAPODS: 1.9.3

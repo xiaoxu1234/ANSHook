@@ -1,0 +1,23 @@
+{
+  "name": "ANSHook",
+  "version": "0.1.0",
+  "summary": "A short description of ANSHook.",
+  "description": "TODO: Add long description of the pod here.",
+  "homepage": "https://github.com/xiaoxu1234/ANSHook",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "xiaoxu1234": "1021857778@qq.com"
+  },
+  "source": {
+    "git": "https://github.com/xiaoxu1234/ANSHook.git",
+    "tag": "0.1.0"
+  },
+  "platforms": {
+    "ios": "9.0"
+  },
+  "source_files": "ANSHook/Classes/**/*",
+  "public_header_files": "Pod/Classes/**/*.h"
+}

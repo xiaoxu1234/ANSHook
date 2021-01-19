@@ -1,0 +1,645 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		643AA6E8D3C27F207DE6FD6A991E75F2 /* ANSHook.m in Sources */ = {isa = PBXBuildFile; fileRef = 535D497B9ADA36459022E81E321B06C3 /* ANSHook.m */; };
+		8B2C412E6D3981D51D5C7DA0877A77A4 /* Pods-ANSHook_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = E8E34C5D0DC8CDB74040074BF2D4E140 /* Pods-ANSHook_Example-dummy.m */; };
+		C8E39FFE31070FDD5BFE24F5EF2C443F /* ANSHook-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 5011654E7B3E0B4267871C93DDBD4E22 /* ANSHook-dummy.m */; };
+		DC04D71F987D68E93386A903EF8619A7 /* Pods-ANSHook_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = E6B91717A69BDDCB2B6FA88F19D1678A /* Pods-ANSHook_Tests-dummy.m */; };
+		E05E8BA472874F0B4B54717999942DDB /* ANSHook.h in Headers */ = {isa = PBXBuildFile; fileRef = C138DB14EBAD2042C3532DB5EFC9E937 /* ANSHook.h */; settings = {ATTRIBUTES = (Project, ); }; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		7470F4B14DA1663A4FBD11260D31E52F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 8A631488AC8536D15C7B4A86E0A5806C;
+			remoteInfo = ANSHook;
+		};
+		ADEBE0944617C29CFCD91187294A1C25 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 51C9CD825341D1BDB168E2709D78DFF6;
+			remoteInfo = "Pods-ANSHook_Example";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		23C13D277C4DB114E074AF14DDE0196E /* ANSHook.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; path = ANSHook.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		26D145F2CE0F2601D8EDDD4449E40EDD /* Pods-ANSHook_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-ANSHook_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
+		3EBF752485D54998E8F8E695224FEFF5 /* ANSHook.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = ANSHook.release.xcconfig; sourceTree = "<group>"; };
+		3F3F6FF4ABF55BEC11047286A2053B03 /* Pods-ANSHook_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-ANSHook_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		482D717C79FE8260B85DABD088A26B74 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
+		5011654E7B3E0B4267871C93DDBD4E22 /* ANSHook-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "ANSHook-dummy.m"; sourceTree = "<group>"; };
+		535D497B9ADA36459022E81E321B06C3 /* ANSHook.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = ANSHook.m; path = ANSHook/Classes/ANSHook.m; sourceTree = "<group>"; };
+		7325D2E8CB5F47FAB832B38C7DEEC1D1 /* libANSHook.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; name = libANSHook.a; path = libANSHook.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		7A9D0A6BBA460765B4878AFEE82980F2 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
+		8825A37A97D38CF13F703DC2476C96EA /* Pods-ANSHook_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-ANSHook_Example-acknowledgements.plist"; sourceTree = "<group>"; };
+		8B34F61B99056698EDD7DEC73F8ADF36 /* Pods-ANSHook_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-ANSHook_Tests.release.xcconfig"; sourceTree = "<group>"; };
+		9560A41C8AF302D4041E9E149806B94F /* ANSHook.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = ANSHook.debug.xcconfig; sourceTree = "<group>"; };
+		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		A5B373493678DCE1FBC988DDDA89C70D /* libPods-ANSHook_Example.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; name = "libPods-ANSHook_Example.a"; path = "libPods-ANSHook_Example.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		B91EAE486B28BA46F7360AB234C4C9C0 /* Pods-ANSHook_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-ANSHook_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
+		C138DB14EBAD2042C3532DB5EFC9E937 /* ANSHook.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ANSHook.h; path = ANSHook/Classes/ANSHook.h; sourceTree = "<group>"; };
+		E6B91717A69BDDCB2B6FA88F19D1678A /* Pods-ANSHook_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-ANSHook_Tests-dummy.m"; sourceTree = "<group>"; };
+		E87B713A85D85C249567004DCFFF34A9 /* Pods-ANSHook_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-ANSHook_Example.release.xcconfig"; sourceTree = "<group>"; };
+		E8E34C5D0DC8CDB74040074BF2D4E140 /* Pods-ANSHook_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-ANSHook_Example-dummy.m"; sourceTree = "<group>"; };
+		EDA4FFC3E0392281D51EC500081B5419 /* Pods-ANSHook_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-ANSHook_Tests.debug.xcconfig"; sourceTree = "<group>"; };
+		F78C5D602FD7C8F1D7E69D4A70B80148 /* Pods-ANSHook_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-ANSHook_Example.debug.xcconfig"; sourceTree = "<group>"; };
+		F82EEFBEB350899A05CC5BD3680761FD /* libPods-ANSHook_Tests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; name = "libPods-ANSHook_Tests.a"; path = "libPods-ANSHook_Tests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		FF045D98CC80DE53C2B3422E4F68D985 /* ANSHook-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "ANSHook-prefix.pch"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		BD80068DE3FA6F0AAA959C0EFE41D493 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BF08D3A0C55CF29DBC9813EB1EF4C7C9 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DD55A7D8F303AE4424E554D6E8E15E3E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		0DC7318747378E391A95E6F839002D4D /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				5011654E7B3E0B4267871C93DDBD4E22 /* ANSHook-dummy.m */,
+				FF045D98CC80DE53C2B3422E4F68D985 /* ANSHook-prefix.pch */,
+				9560A41C8AF302D4041E9E149806B94F /* ANSHook.debug.xcconfig */,
+				3EBF752485D54998E8F8E695224FEFF5 /* ANSHook.release.xcconfig */,
+			);
+			name = "Support Files";
+			path = "Example/Pods/Target Support Files/ANSHook";
+			sourceTree = "<group>";
+		};
+		1CBE2BA85400D1DA79E0E0FD088616BC /* Pod */ = {
+			isa = PBXGroup;
+			children = (
+				23C13D277C4DB114E074AF14DDE0196E /* ANSHook.podspec */,
+				482D717C79FE8260B85DABD088A26B74 /* LICENSE */,
+				7A9D0A6BBA460765B4878AFEE82980F2 /* README.md */,
+			);
+			name = Pod;
+			sourceTree = "<group>";
+		};
+		2FF2ED5FE2E90C3530EB4681D6F46C72 /* Pods-ANSHook_Tests */ = {
+			isa = PBXGroup;
+			children = (
+				3F3F6FF4ABF55BEC11047286A2053B03 /* Pods-ANSHook_Tests-acknowledgements.markdown */,
+				26D145F2CE0F2601D8EDDD4449E40EDD /* Pods-ANSHook_Tests-acknowledgements.plist */,
+				E6B91717A69BDDCB2B6FA88F19D1678A /* Pods-ANSHook_Tests-dummy.m */,
+				EDA4FFC3E0392281D51EC500081B5419 /* Pods-ANSHook_Tests.debug.xcconfig */,
+				8B34F61B99056698EDD7DEC73F8ADF36 /* Pods-ANSHook_Tests.release.xcconfig */,
+			);
+			name = "Pods-ANSHook_Tests";
+			path = "Target Support Files/Pods-ANSHook_Tests";
+			sourceTree = "<group>";
+		};
+		33A03CA33774C2DDDEAB6D9643500A53 /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				73F06FCAE5AE637F60B4554087FB429E /* Pods-ANSHook_Example */,
+				2FF2ED5FE2E90C3530EB4681D6F46C72 /* Pods-ANSHook_Tests */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		350E65834B733299E4B63A761D97E69A /* Development Pods */ = {
+			isa = PBXGroup;
+			children = (
+				7DBC5502E964541487CA21AA6CF2589A /* ANSHook */,
+			);
+			name = "Development Pods";
+			sourceTree = "<group>";
+		};
+		73F06FCAE5AE637F60B4554087FB429E /* Pods-ANSHook_Example */ = {
+			isa = PBXGroup;
+			children = (
+				B91EAE486B28BA46F7360AB234C4C9C0 /* Pods-ANSHook_Example-acknowledgements.markdown */,
+				8825A37A97D38CF13F703DC2476C96EA /* Pods-ANSHook_Example-acknowledgements.plist */,
+				E8E34C5D0DC8CDB74040074BF2D4E140 /* Pods-ANSHook_Example-dummy.m */,
+				F78C5D602FD7C8F1D7E69D4A70B80148 /* Pods-ANSHook_Example.debug.xcconfig */,
+				E87B713A85D85C249567004DCFFF34A9 /* Pods-ANSHook_Example.release.xcconfig */,
+			);
+			name = "Pods-ANSHook_Example";
+			path = "Target Support Files/Pods-ANSHook_Example";
+			sourceTree = "<group>";
+		};
+		7DBC5502E964541487CA21AA6CF2589A /* ANSHook */ = {
+			isa = PBXGroup;
+			children = (
+				C138DB14EBAD2042C3532DB5EFC9E937 /* ANSHook.h */,
+				535D497B9ADA36459022E81E321B06C3 /* ANSHook.m */,
+				1CBE2BA85400D1DA79E0E0FD088616BC /* Pod */,
+				0DC7318747378E391A95E6F839002D4D /* Support Files */,
+			);
+			name = ANSHook;
+			path = ../..;
+			sourceTree = "<group>";
+		};
+		C84484A61D23C938D0B38D659E479B7A /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				7325D2E8CB5F47FAB832B38C7DEEC1D1 /* libANSHook.a */,
+				A5B373493678DCE1FBC988DDDA89C70D /* libPods-ANSHook_Example.a */,
+				F82EEFBEB350899A05CC5BD3680761FD /* libPods-ANSHook_Tests.a */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		CF1408CF629C7361332E53B88F7BD30C = {
+			isa = PBXGroup;
+			children = (
+				9D940727FF8FB9C785EB98E56350EF41 /* Podfile */,
+				350E65834B733299E4B63A761D97E69A /* Development Pods */,
+				D89477F20FB1DE18A04690586D7808C4 /* Frameworks */,
+				C84484A61D23C938D0B38D659E479B7A /* Products */,
+				33A03CA33774C2DDDEAB6D9643500A53 /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		D89477F20FB1DE18A04690586D7808C4 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		33214F27930364FC65A59B59FF13F91A /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		937661819E374E541083EFEB4EFA9150 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E05E8BA472874F0B4B54717999942DDB /* ANSHook.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C50D295E09AFF79C5F48829D5AD42B8D /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		2A4AFA3278B5F495F59A5F1B20CB4DA0 /* Pods-ANSHook_Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8F269F92F7CFF3BBC36ECC4267A21F93 /* Build configuration list for PBXNativeTarget "Pods-ANSHook_Tests" */;
+			buildPhases = (
+				C50D295E09AFF79C5F48829D5AD42B8D /* Headers */,
+				B6A0519C7DBDEF0FFB1B70124FC64843 /* Sources */,
+				DD55A7D8F303AE4424E554D6E8E15E3E /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				D56CBE8D7A1DDE85E07D998C053D3AB4 /* PBXTargetDependency */,
+			);
+			name = "Pods-ANSHook_Tests";
+			productName = "Pods-ANSHook_Tests";
+			productReference = F82EEFBEB350899A05CC5BD3680761FD /* libPods-ANSHook_Tests.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+		51C9CD825341D1BDB168E2709D78DFF6 /* Pods-ANSHook_Example */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C086464BD2D202DEFAC1CB519D9F29E0 /* Build configuration list for PBXNativeTarget "Pods-ANSHook_Example" */;
+			buildPhases = (
+				33214F27930364FC65A59B59FF13F91A /* Headers */,
+				7214344F93864AEB0CE8E07F5A4DA4C0 /* Sources */,
+				BD80068DE3FA6F0AAA959C0EFE41D493 /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				6CCD6EBA81A844D41FE78C6E1A7B6FBD /* PBXTargetDependency */,
+			);
+			name = "Pods-ANSHook_Example";
+			productName = "Pods-ANSHook_Example";
+			productReference = A5B373493678DCE1FBC988DDDA89C70D /* libPods-ANSHook_Example.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+		8A631488AC8536D15C7B4A86E0A5806C /* ANSHook */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4370F25139F43260B001AEE06A4C6DCF /* Build configuration list for PBXNativeTarget "ANSHook" */;
+			buildPhases = (
+				937661819E374E541083EFEB4EFA9150 /* Headers */,
+				9DA374C393F0C3AA81C269D3704D35FE /* Sources */,
+				BF08D3A0C55CF29DBC9813EB1EF4C7C9 /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ANSHook;
+			productName = ANSHook;
+			productReference = 7325D2E8CB5F47FAB832B38C7DEEC1D1 /* libANSHook.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		BFDFE7DC352907FC980B868725387E98 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1100;
+				LastUpgradeCheck = 1100;
+			};
+			buildConfigurationList = 4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = CF1408CF629C7361332E53B88F7BD30C;
+			productRefGroup = C84484A61D23C938D0B38D659E479B7A /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				8A631488AC8536D15C7B4A86E0A5806C /* ANSHook */,
+				51C9CD825341D1BDB168E2709D78DFF6 /* Pods-ANSHook_Example */,
+				2A4AFA3278B5F495F59A5F1B20CB4DA0 /* Pods-ANSHook_Tests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		7214344F93864AEB0CE8E07F5A4DA4C0 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8B2C412E6D3981D51D5C7DA0877A77A4 /* Pods-ANSHook_Example-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9DA374C393F0C3AA81C269D3704D35FE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C8E39FFE31070FDD5BFE24F5EF2C443F /* ANSHook-dummy.m in Sources */,
+				643AA6E8D3C27F207DE6FD6A991E75F2 /* ANSHook.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B6A0519C7DBDEF0FFB1B70124FC64843 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DC04D71F987D68E93386A903EF8619A7 /* Pods-ANSHook_Tests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		6CCD6EBA81A844D41FE78C6E1A7B6FBD /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = ANSHook;
+			target = 8A631488AC8536D15C7B4A86E0A5806C /* ANSHook */;
+			targetProxy = 7470F4B14DA1663A4FBD11260D31E52F /* PBXContainerItemProxy */;
+		};
+		D56CBE8D7A1DDE85E07D998C053D3AB4 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "Pods-ANSHook_Example";
+			target = 51C9CD825341D1BDB168E2709D78DFF6 /* Pods-ANSHook_Example */;
+			targetProxy = ADEBE0944617C29CFCD91187294A1C25 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		0225B03AA3A4E7E480FD1AA70E7B4F3A /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3EBF752485D54998E8F8E695224FEFF5 /* ANSHook.release.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				GCC_PREFIX_HEADER = "Target Support Files/ANSHook/ANSHook-prefix.pch";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRIVATE_HEADERS_FOLDER_PATH = "";
+				PRODUCT_MODULE_NAME = ANSHook;
+				PRODUCT_NAME = ANSHook;
+				PUBLIC_HEADERS_FOLDER_PATH = "";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		32EF82C8843A9CDF962EF07B1FE5A0E6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8B34F61B99056698EDD7DEC73F8ADF36 /* Pods-ANSHook_Tests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MACH_O_TYPE = staticlib;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		8F17DC3A99F99FBAD606CE6963886315 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Release;
+		};
+		916E0404255105F480DC4950B7625F7A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		973131DC10D0C09E57AF287D96614BC2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = E87B713A85D85C249567004DCFFF34A9 /* Pods-ANSHook_Example.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MACH_O_TYPE = staticlib;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		C67B7F59CA32199A7D7043C73EC39F96 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = EDA4FFC3E0392281D51EC500081B5419 /* Pods-ANSHook_Tests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MACH_O_TYPE = staticlib;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		DADE40ABA109F01D3B3959283A7A557D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9560A41C8AF302D4041E9E149806B94F /* ANSHook.debug.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				GCC_PREFIX_HEADER = "Target Support Files/ANSHook/ANSHook-prefix.pch";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRIVATE_HEADERS_FOLDER_PATH = "";
+				PRODUCT_MODULE_NAME = ANSHook;
+				PRODUCT_NAME = ANSHook;
+				PUBLIC_HEADERS_FOLDER_PATH = "";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		DB2D725B153EC41756D5ACDE2CE8CB1E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = F78C5D602FD7C8F1D7E69D4A70B80148 /* Pods-ANSHook_Example.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MACH_O_TYPE = staticlib;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		4370F25139F43260B001AEE06A4C6DCF /* Build configuration list for PBXNativeTarget "ANSHook" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DADE40ABA109F01D3B3959283A7A557D /* Debug */,
+				0225B03AA3A4E7E480FD1AA70E7B4F3A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				916E0404255105F480DC4950B7625F7A /* Debug */,
+				8F17DC3A99F99FBAD606CE6963886315 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8F269F92F7CFF3BBC36ECC4267A21F93 /* Build configuration list for PBXNativeTarget "Pods-ANSHook_Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C67B7F59CA32199A7D7043C73EC39F96 /* Debug */,
+				32EF82C8843A9CDF962EF07B1FE5A0E6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C086464BD2D202DEFAC1CB519D9F29E0 /* Build configuration list for PBXNativeTarget "Pods-ANSHook_Example" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DB2D725B153EC41756D5ACDE2CE8CB1E /* Debug */,
+				973131DC10D0C09E57AF287D96614BC2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+}
