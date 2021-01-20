@@ -14,12 +14,13 @@
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions
 {
     // Override point for customization after application launch.
-    [ANSHook ansHookInstanceSelector:@selector(viewDidLoad) onClass:NSClassFromString(@"BVCViewController")];
-    [ANSHook ansHookInstanceSelector:@selector(tableView:didSelectRowAtIndexPath:) onClass:NSClassFromString(@"BVCViewController")];
-    [ANSHook ansHookInstanceSelector:@selector(tableView:cellForRowAtIndexPath:) onClass:NSClassFromString(@"BVCViewController")];
     
-    [ANSHook ansHookInstanceSelector:@selector(tableView:didSelectRowAtIndexPath:) onClass:NSClassFromString(@"CVCViewController")];
+//    [[ANSHook shareInstance] ansHookInstanceSelector:@selector(viewDidLoad) onClass:NSClassFromString(@"BVCViewController") order:ANSSwizzleOrderAfter];
     
+    [[ANSHook shareInstance] ansHookInstanceSelector:@selector(tableView:didSelectRowAtIndexPath:) onClass:NSClassFromString(@"ANSViewController") order:ANSSwizzleOrderBefore isRecursive:NO];
+    [[ANSHook shareInstance] ansHookInstanceSelector:@selector(tableView:didSelectRowAtIndexPath:) onClass:NSClassFromString(@"BVCViewController") order:ANSSwizzleOrderBefore isRecursive:NO];
+    
+//    [[ANSHook shareInstance] ansHookInstanceSelector:@selector(tableView:cellForRowAtIndexPath:) onClass:NSClassFromString(@"BVCViewController") order:ANSSwizzleOrderAfter];
     
     [ANSHook shareInstance].viewDidLoad = ^(NSString * _Nonnull vc) {
         NSLog(@"%@",vc);

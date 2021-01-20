@@ -13,6 +13,12 @@ typedef void(^CellForRow)(UITableView *tableView, NSIndexPath *indexPath);
 typedef void(^DidSelectRow)(UITableView *tableView, NSIndexPath *indexPath);
 typedef void(^ViewDidLoad)(NSString *vc);
 
+//  交换方法时，SDK方法与系统方法的先后执行顺序
+typedef NS_ENUM(NSInteger, ANSSwizzleOrder) {
+    ANSSwizzleOrderBefore,  // SDK在前，系统在后
+    ANSSwizzleOrderAfter  // 系统在前，SDK在后
+};
+
 @interface ANSHook : NSObject
 
 @property (nonatomic,copy) CellForRow cellForRow;
@@ -21,8 +27,8 @@ typedef void(^ViewDidLoad)(NSString *vc);
 
 
 + (instancetype)shareInstance;
-+ (void)ansHookInstanceSelector:(SEL)aSelector onClass:(Class)aClass;
-+ (void)ansHookClassSelector:(SEL)aSelector onClass:(Class)aClass;
+- (void)ansHookInstanceSelector:(SEL)aSelector onClass:(Class)aClass order:(ANSSwizzleOrder)order isRecursive:(BOOL)recursive;
+- (void)ansHookClassSelector:(SEL)aSelector onClass:(Class)aClass order:(ANSSwizzleOrder)order;
 @end
 
 NS_ASSUME_NONNULL_END

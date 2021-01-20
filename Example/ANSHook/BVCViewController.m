@@ -31,7 +31,7 @@ static NSString *const visual_collection_view = @"网格布局";
 
     CVCViewController *cvc = [[CVCViewController alloc] init];
     [self.navigationController pushViewController:cvc animated:YES];
-    
+
 }
 
 - (NSArray *)getModuleData {
